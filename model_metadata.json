@@ -1,0 +1,25 @@
+{
+  "model": "GradientBoosting",
+  "features": [
+    "Age",
+    "Fare",
+    "Sex",
+    "SibSp",
+    "Parch",
+    "Pclass",
+    "Embarked",
+    "FamilySize",
+    "IsAlone",
+    "AgeGroup",
+    "FareBin"
+  ],
+  "test_auc": 0.7901,
+  "test_acc": 0.7595,
+  "test_f1": 0.4706,
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "n_estimators": 100,
+    "subsample": 0.8
+  }
+}
